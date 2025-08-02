@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pastelería-rouss</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-pink-500 text-white p-4 shadow-md">
+     <!-- Logo + Nombre -->
+    <div class="flex items-center gap-3">
+      <img src="./public/Dulces PASELES.png" alt="Logo Dulce Sabor" class="w-10 h-10 rounded-full shadow" />
+      <span class="text-2xl font-bold tracking-wide">Dulce Sabor</span>
+    </div>
+     <!-- navegacion -->
+
+    <ul class="flex justify-center gap-8 text-lg font-medium">
+      <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+      <li><a href="#servicios" class="hover:underline">Productos</a></li>
+      <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- INICIO -->
+  <section id="inicio" class="text-center p-8 bg-pink-50">
+    <h1 class="text-4xl font-bold mb-4 text-pink-700">Bienvenidos a Dulce Sabor</h1>
+    <img src="./public/Dulces PASELES (1).png" alt="Pastelería Dulce" class="mx-auto mb-4 rounded-lg shadow" />
+    <p class="max-w-xl mx-auto text-lg">
+      Disfruta de nuestros postres artesanales, hechos con amor y los mejores ingredientes. ¡Dale un dulce sabor a tu día!
+    </p>
+  </section>
+
+  <!-- PRODUCTOS / SERVICIOS -->
+  <section id="servicios" class="bg-white p-8 text-center">
+    <h2 class="text-3xl font-semibold text-pink-600 mb-6">¿que esperas para probarlos?</h2>
+     <!-- tarjeta uno -->
+
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-pink-100 rounded-lg shadow-lg p-6 w-64 hover:scale-105 transition">
+        <img src="./public/tres leches.jfif" alt="Torta tres leches" class="rounded mb-3" />
+        <h3 class="font-bold text-lg mb-2">Torta tres leches</h3>
+        <p>Sabor unico para tus celebraciones.</p>
+        <h3 class="text-pink-600 font-bold mt-2"</h3>
+        <p>S/50 – S/150</p>
+      </div>
+     <!-- tarjeta dos -->
+
+      <div class="bg-pink-100 rounded-lg shadow-lg p-6 w-64 hover:scale-105 transition">
+        <img src="./public/torta helada.png" alt="torta helada" class="rounded mb-3" />
+        <h3 class="font-bold text-lg mb-2">torta helada</h3>
+        <p>delicia y perfecta para tu reunion.</p>
+        <h3 class="text-pink-600 font-bold mt-2"</h3>
+        <p>S/70 – S/100</p>
+      </div>
+     <!-- tarjeta tres -->
+      <div class="bg-pink-100 rounded-lg shadow-lg p-6 w-64 hover:scale-105 transition">
+        <img src="./public/durasno.jfif" alt="torta de durasno" class="rounded mb-3" />
+        <h3 class="font-bold text-lg mb-2">torta de durazno</h3>
+        <p>delicioso para compartir en tu celebridades o indivodual.</p>
+        <h3 class="text-pink-600 font-bold mt-2"</h3>
+        <p>S/70 – S/200</p>
+      </div>
+
+      </div> 
+      <!-- Botón Ver más productos -->
+    <div class="mt-10 text-center">
+    <a href="#mas-productos" class="inline-block bg-pink-500 text-white font-semibold px-6 py-3 rounded hover:bg-pink-600 transition">
+      Ver todos los productos
+</a>
+
+  </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="bg-pink-50 p-8 text-center">
+    <h2 class="text-3xl font-semibold text-pink-700 mb-6">Contáctanos</h2>
+    <form class="max-w-md mx-auto flex flex-col gap-4">
+      <input type="text" placeholder="Nombre" class="p-3 border rounded" required />
+      <input type="email" placeholder="Correo electrónico" class="p-3 border rounded" required />
+      <textarea placeholder="Mensaje" class="p-3 border rounded" required></textarea>
+      <button type="submit" class="bg-pink-600 text-white py-2 rounded hover:bg-pink-700 transition">
+        Enviar mensaje
+      </button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-pink-700 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Dulce Sabor. elaborado por rouss rosalinda.</p>
+    <div class="mt-2">
+      <a href="https://www.facebook.com" class="mx-2 hover:underline">Facebook</a>
+      <a href="https://www.instagram.com" class="mx-2 hover:underline">Instagram</a>
+      <a href="https://www.tiktok.com" class="mx-2 hover:underline">TikTok</a>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+---
