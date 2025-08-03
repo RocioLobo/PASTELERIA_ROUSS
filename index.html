@@ -25,17 +25,34 @@
   </nav>
 
   <!-- INICIO -->
-  <section id="inicio" class="text-center p-8 bg-pink-50">
-    <h1 class="text-4xl font-bold mb-4 text-pink-700">Bienvenidos a Dulce Sabor</h1>
-    <img src="./public/Dulces PASELES (1).png" alt="Pastelería Dulce" class="mx-auto mb-4 rounded-lg shadow" />
-    <p class="max-w-xl mx-auto text-lg">
-      Disfruta de nuestros postres artesanales, hechos con amor y los mejores ingredientes. ¡Dale un dulce sabor a tu día!
-    </p>
-  </section>
+  <section id="inicio" class="relative px-6 py-10 bg-pink-50">
+  <!-- Imagen como fondo grande -->
+  <div class="relative max-w-10xl mx-auto h-[500px] rounded-lg overflow-hidden shadow-lg">
+    <!-- Imagen -->
+    <img src="./public/torta  roja.jpg"
+         alt="Torta"
+         class="w-full h-full object-cover brightness-75" />
+
+    <!-- Texto centrado -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Bienvenidos a <span class="text-pink-300">Dulce Sabor</span>
+      </h1>
+      <p class="text-lg md:text-xl max-w-2xl">
+        Disfruta de nuestros postres artesanales, hechos con amor y los mejores ingredientes. ¡Dale un dulce sabor a tu día!
+      </p>
+    </div>
+  </div>
+</section>
 
   <!-- PRODUCTOS / SERVICIOS -->
-  <section id="servicios" class="bg-white p-8 text-center">
-    <h2 class="text-3xl font-semibold text-pink-600 mb-6">¿que esperas para probarlos?</h2>
+  <!-- PRODUCTOS / SERVICIOS -->
+<section id="servicios" class="relative bg-white p-8 text-center overflow-hidden">
+  <!-- Imagen de fondo -->
+  <div class="absolute inset-0 bg-[url('https://i.pinimg.com/736x/99/67/c3/9967c3acfc01eb75add90046bad870b6.jpg')] bg-cover bg-center opacity-20 z-0"></div>
+
+  <h2 class="text-3xl font-semibold text-pink-600 mb-6 relative z-10">Nuestros Productos</h2>
+
      <!-- tarjeta uno -->
 
     <div class="flex flex-wrap justify-center gap-6">
